@@ -14,7 +14,7 @@
         "https://lms.ynu.ac.jp/lms/lginLgir/"
       ],
       "js": [
-        "login_script.js"
+        "customscript.js","login_script.js"
       ]
     }
   ],
