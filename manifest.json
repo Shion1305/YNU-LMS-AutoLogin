@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "YNU-LMS Auto Login Tool",
+  "version": "1.0",
+  "description": "YNU LMSに自動ログインするための拡張機能です。",
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": [
+        "https://lms.ynu.ac.jp/lms/lginLgir/"
+      ],
+      "js": [
+        "login_script.js"
+      ]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
