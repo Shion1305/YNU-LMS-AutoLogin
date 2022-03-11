@@ -1,8 +1,11 @@
 var username = ''
 var password = ''
 
-myConfig();
 
+// if myConfig() exists as function, execute.
+if (typeof myConfig() == 'function') {
+    myConfig();
+}
 //Bypass LMS password by autofill and auto-submit
 document.getElementById("loginForm").userId.value = username;
 document.getElementById("loginForm").password.value = password;
