@@ -11,7 +11,7 @@
     {
       "run_at": "document_end",
       "matches": [
-        "https://lms.ynu.ac.jp/lms/lginLgir/"
+        "https://lms.ynu.ac.jp/lms/lginLgir/*"
       ],
       "js": [
         "customscript.js","login_script.js"
