@@ -16,6 +16,15 @@
       "js": [
         "login_script.js"
       ]
+    },
+    {
+      "run_at": "document_end",
+      "matches": [
+        "https://lms.ynu.ac.jp/lms/logout/*"
+      ],
+      "js": [
+        "lms_logout_script.js"
+      ]
     }
   ],
   "background": {
