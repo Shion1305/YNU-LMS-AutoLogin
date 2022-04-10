@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>ユーザー設定</h1>
+<form onsubmit="updatePassword">
+    <div class="form_row">
+        <div>ユーザー名</div>
+        <input type="text" name="idInput"/>
+    </div>
+    <div class="form_row">
+        <div>パスワード</div>
+        <input type="password" name="passInput">
+    </div>
+    <input type="submit"/>
+</form>
+<script>
+    // function updatePassword(event) {
+    //     const data = {
+    //         userData: {
+    //             username: event.target.idInput.value,
+    //             password: event.target.passInput.value
+    //         }
+    //     };
+    //     chrome.storage.local.set(data);
+    // }
+</script>
+</body>
+</html>
