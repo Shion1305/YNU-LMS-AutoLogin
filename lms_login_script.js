@@ -4,7 +4,6 @@ getFromStorage();
 async function getFromStorage() {
     return new Promise(resolve => {
         chrome.storage.local.get((data) => {
-            console.log(data.userData);
             if (data.userData === undefined) {
                 loginForm.addEventListener("submit", async (event) => {
                     let data = {
