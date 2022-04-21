@@ -14,7 +14,25 @@
         "https://lms.ynu.ac.jp/lms/lginLgir/*"
       ],
       "js": [
-        "customscript.js","login_script.js"
+        "lms_login_script.js"
+      ]
+    },
+    {
+      "run_at": "document_end",
+      "matches": [
+        "https://lms.ynu.ac.jp/lms/logout/*"
+      ],
+      "js": [
+        "lms_logout_script.js"
+      ]
+    },
+    {
+      "run_at": "document_end",
+      "matches": [
+        "https://lms.ynu.ac.jp/lms/error/*"
+      ],
+      "js": [
+        "lms_error_redirect.js"
       ]
     }
   ],
