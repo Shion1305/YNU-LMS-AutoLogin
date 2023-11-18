@@ -1,0 +1,35 @@
+name: 🐛Bug Report
+description: "Did you spot BIG cockroach running on the street? Try to catch it, freeze it, and then send it to us🐛"
+title: "🐛🔧 "
+labels: 'bug'
+assignees:
+  - 
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary (バグの概要)
+      description: "Write down the summary. What happened? Try to be as descriptive as possible. Tell us what did you expect to happen, and what actually happened instead."
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Reproduction Steps (バグ発生条件)
+      description: "Give us full walkthrought on what you've experienced step by step."
+    validations:
+      required: true
+  - type: textarea
+    id: probable-cause
+    attributes:
+      label: Probable Cause (修正が必要と思われる箇所)
+      description: "Got a clue to fix it? You can give it a shot. The more we know, the more we can do. Help us get to the bottom of the problem quickly."
+    validations:
+      required: false
+  - type: textarea
+    id: note
+    attributes:
+      label: Note (補足・考慮すべきこと)
+      description: "If there is something worth mentioning, then write it down. We might need it later :)"
+    validations:
+      required: false

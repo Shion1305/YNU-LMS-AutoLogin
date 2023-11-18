@@ -1,0 +1,28 @@
+name: 💡Feature Request
+description: Are you desperate for a new feature? Wanna talk with us to make it real? Request it! Grow the world as you want. ALWAYS great ideas are in your mind. Unleash and let it see the sunlight🌞
+title: "✨⚡️📝🔥🔧 "
+labels: "suggestion"
+assignees:
+  - 
+body:
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Idea (提案する内容)
+      description: "What do you want to request? Don't write something like \"Better analytics\". But it's a feature, and what is it's purpose?"
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact (提案による変更の影響範囲)
+      description: "How do you gonna make this universe a better place? Lay it down. Play safe! Minimum is better."
+    validations:
+      required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: Note (補足・考慮すべきこと)
+      description: "If there is something worth mentioning, then write it down. We might need it later :)"
+    validations:
+      required: false
