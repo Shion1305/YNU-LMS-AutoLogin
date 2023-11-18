@@ -1,0 +1,29 @@
+name: ✨Feature Implementation
+description: Hey, so you're working on a feature? Feel free to tell your awesome story/progress and you will get a Donut from us just for free🍩
+title: "✨⚡️📝🔥🔧 "
+labels: "todo"
+assignees:
+  - 
+body:
+  - type: textarea
+    id: todo-description
+    attributes:
+      label: TODO (実装する内容)
+      description: "You're a great engineer and in a great idea. Tell us about your work. Don't write something like \"Better analytics\". But it's a feature, and what is it's purpose?"
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact (実装による変更の影響範囲)
+      description: "How are you gonna change the world? 
+      Be specific and play safe, you gotta ensure it never breaks this world, and I mean never. Minimum is better, or you can split the universe in multiple git request."
+    validations:
+      required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: Note (補足・考慮すべきこと)
+      description: "Is there something else worth mentioning? Blog it!"
+    validations:
+      required: false
