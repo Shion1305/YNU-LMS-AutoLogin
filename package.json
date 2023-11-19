@@ -1,0 +1,15 @@
+{
+  "name": "ynu-autologin",
+  "version": "1.0.0",
+  "description": "横浜国立大学関連Webサイトに自動ログインできる拡張機能です。",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "author": "Shion Ichikawa",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "^0.0.251",
+    "typescript": "^5.2.2"
+  }
+}
